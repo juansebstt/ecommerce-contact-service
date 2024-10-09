@@ -1,1 +1,11 @@
-spring.application.name=ecommerce-contact-service
+server:
+  port: 8090
+
+whatsapp:
+  apiUrl: "https://your-whatsapp-api-url"
+  token: "your-whatsapp-api-token"
+  phoneNumber: "your-business-phone-number"
+
+spring:
+  application:
+    name: ecommerce-contact-service
